@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+
     tools:context=".MainActivity">
 
     <!--카운트 다운-->
@@ -13,6 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="00:30"
+        android:textColor="#FFFFFF"
+
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/cancel_btn"
         app:layout_constraintEnd_toEndOf="@+id/cancel_btn"
@@ -32,17 +36,15 @@
         app:button_bottom_padding="20dp"
         app:button_image_disabled="@drawable/ic_lock_open_black_24dp"
         app:button_image_enabled="@drawable/ic_lock_outline_black_24dp"
-        app:button_image_height="60dp"
-        app:button_image_width="100dp"
         app:button_left_padding="20dp"
         app:button_right_padding="20dp"
+
         app:button_top_padding="20dp"
         app:has_activate_state="true"
         app:initial_state="disabled"
         app:inner_text="  I'm Okay !"
         app:inner_text_background="@drawable/shape_rounded"
         app:inner_text_bottom_padding="18dp"
-
         app:inner_text_color="@android:color/white"
         app:inner_text_size="25sp"
         app:inner_text_top_padding="18dp"
